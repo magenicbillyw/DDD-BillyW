@@ -11,6 +11,6 @@ In this repo, I have taken the work that Matthew Renze did in this repo (https:/
 
 Each domain has it's own set of Controllers, Models, and Views folder. There is a Shared folder that contains Views that are shared across the application.
 
-I will be refactoring this code over the course of this class.
+This first iteration is simply to get the original author's repo working in ASP.NET Core 3.1.  I will be refactoring this code over the course of this class.
 
 The main difference between this version of the code, and the original .NET Framwork code is that instead of needing to configure a custom razor view engine to allow MVC to find the views I simply added some configuration to the startup.cs file.
