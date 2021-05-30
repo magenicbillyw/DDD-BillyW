@@ -2,7 +2,7 @@
 
 billyw@magenic.com
 
-#Clean Architecture in ASP.NET Core
+# Clean Architecture in ASP.NET Core
 In this repo, I have taken the work that Matthew Renze did in this repo (https://github.com/matthewrenze/clean-architecture-in-asp-net-mvc-5) and I have upgraded it as is from .NET Framework 4.5 to ASP.NET Core 3.1. The code in this repo shows the original authors view of Clean Architecture by implementing the concerns of the MVC application in terms of Domains, as opposed to using the normal folder structure used in MVC applications. He currently has three Domains.
 
 1. Home - For expressing the Home page.
