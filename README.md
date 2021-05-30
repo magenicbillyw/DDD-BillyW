@@ -13,4 +13,13 @@ Each domain has it's own set of Controllers, Models, and Views folder. There is 
 
 This first iteration is simply to get the original author's repo working in ASP.NET Core 3.1.  I will be refactoring this code over the course of this class.
 
-The main difference between this version of the code, and the original .NET Framwork code is that instead of needing to configure a custom razor view engine to allow MVC to find the views I simply added some configuration to the startup.cs file.
+The main difference between this version of the code, and the original .NET Framwork code is that instead of needing to configure a custom razor view engine to allow MVC to find the views I simply added some configuration to the startup.cs file.  See below...
+
+```
+services.Configure<RazorViewEngineOptions>(o =>
+{
+    o.ViewLocationFormats.Clear();
+    o.ViewLocationFormats.Add("~/{1}/Views/{0}.cshtml");
+    o.ViewLocationFormats.Add("~/Shared/Views/{0}.cshtml");
+});
+```
