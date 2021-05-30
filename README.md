@@ -1,1 +1,1 @@
-"# Billy Walton - Domain Driven Design" 
+# Billy Walton - Domain Driven Design
