@@ -1,1 +1,3 @@
-# Billy Walton - Domain Driven Design
+# Billy Walton - Domain Driven Design 
+billyw@magenic.com
+
